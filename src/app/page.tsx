@@ -522,7 +522,7 @@ active:text-[var(--main-color)]"
               ).value,
             };
 
-            const res = await fetch("/api/sendEmail", {
+            const res = await fetch("./api/sendEmail", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
