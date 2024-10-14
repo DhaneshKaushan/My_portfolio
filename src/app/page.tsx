@@ -204,7 +204,7 @@ active:text-[var(--main-color)]"
 
         <div className="about-image relative w-[25rem] h-[25rem] rounded-full flex justify-center items-center">
           <Image
-            src="/1.png"
+            src="./1.png"
             alt="Profile Image"
             width={225}
             height={225}
